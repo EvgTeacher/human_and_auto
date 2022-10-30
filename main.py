@@ -20,3 +20,11 @@ class Auto:
 
 
 nick = Human('Nick')
+kate = Human('Kate')
+
+car = Auto('Mercedes')
+
+car.add_passenger(nick)
+car.add_passenger(kate)
+
+car.print_passenger_names()
